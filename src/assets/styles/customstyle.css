@@ -1,0 +1,75 @@
+
+		/* Generic labels style rules */
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a {
+			text-decoration: none;
+			font: 1em Arial, 'Courier New', monospace;
+			color: #5c5252;
+		}
+
+		/* Common style rules */
+		.horizontal-nav {
+			/*  */
+		}
+
+		.lnk-header-nav {}
+
+		.hor-header-nav {
+			background-color: grey;
+		}
+
+		.hor-footer-nav {
+			background-color: #0c0c0c;
+		}
+
+		.bold-text {
+			font-weight: bold;
+		}
+
+		.italic-text {
+			font-style: italic;
+		}
+
+		/* Specific style rules */
+		#main-nav {
+			display: block;
+			width: 100%;
+		}
+
+		#main-nav ul {
+			margin: 0;
+			padding: 20px;
+			list-style: none;
+		}
+
+		#main-nav ul li {
+			display: inline-block;
+		}
+
+		#main-nav ul li.active,
+		#main-nav ul li span.active {
+			color: white;
+			font: 1.5em 'Courier New', Courier, monospace;
+			font-weight: bold;
+		}
+
+		#main-nav ul li span.sep {
+			display: block;
+			margin: 0 20px;
+			color: aquamarine;
+			font-size: 2em;
+		}
+
+		#main-nav ul li a {
+			color: aquamarine;
+			text-decoration: none;
+			font: 1.5em 'Courier New', Courier, monospace;
+		}
+
+		#main-nav ul li a:hover {
+			font-weight: bold;
+		}
