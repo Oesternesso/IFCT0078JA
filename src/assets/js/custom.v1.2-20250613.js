@@ -1,6 +1,6 @@
-// JavaScript
-// Ámbitos de variables
-// let counter = 10; // es 10 de tipo integer
+// // JavaScript
+// // Ámbitos de variables
+// // let counter = 10; // es 10 de tipo integer
 // // if (counter > 10) { // ¿es mayor que 10?
 // // 	console.log(`counter (${counter}) es mayor de 10`);
 // // }
