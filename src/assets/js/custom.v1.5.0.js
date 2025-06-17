@@ -11,7 +11,7 @@ celsiusAFahrenheit();
 
 function farenheitACelsius(){
     let C = (farenheit - 32) * 5/9;
-    return console.log("La conversión Fahrenheit a Celsius es de"+ C + "Cº");
+    return console.log("La conversión Fahrenheit a Celsius es de" + C + "Cº");
 
 } 
 farenheitACelsius();
