@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <title>Ejercicio 7 - Ámbito de variables</title>
+        <script>
+            const IVA_general = 0.21
+            const IVA_reducido = 0.1
+            const IVA_superreducido1 = 0.05
+            const IVA_superreducido2 = 0.04
+            const IVA_0 = 0
+            var Samsung_S25 = 950
+            
+
+            function IVAgeneral(){
+                let IVA_aplicable = IVA_general
+                let preciofinal= Samsung_S25 * IVA_aplicable + Samsung_S25
+                console.log("El valor es de " + preciofinal + "€ con IVA general")
+
+            }
+            
+
+            function IVAreducido(){
+                let IVA_aplicable = IVA_reducido
+                let preciofinal = Samsung_S25 * IVA_aplicable +Samsung_S25
+                console.log("El valor es de " + preciofinal + "€ con IVA general")
+
+            }
+            
+
+            function IVAsuperreducido1(){
+                let IVA_aplicable = IVA_superreducido1
+                let preciofinal = Samsung_S25 * IVA_aplicable + Samsung_S25
+                console.log("El valor es de " + preciofinal + "€ con IVA superrreducido al 5%")
+            }
+            
+
+            function IVA_superreducido_2(){
+                let IVA_aplicable = IVA_superreducido2
+                let preciofinal = Samsung_S25 * IVA_aplicable + Samsung_S25
+                console.log("El valor es de " + preciofinal +"€ con IVA superreducido al 4%")
+            }
+            
+
+            function IVA0(){
+                let IVA_aplicable = IVA_0
+                let preciofinal= Samsung_S25 * IVA_aplicable + Samsung_S25
+                console.log("El valor es de" + preciofinal + "€ con IVA al 0%")
+            }
+            IVAgeneral()
+            IVAreducido()
+            IVAsuperreducido1()
+            IVA_superreducido_2()
+            IVA0()
+
+            if(Samsung_S25 < 1000){
+                console.error("El valor final es superior a 1000€");
+                
+            }
+
+            
+        </script>
+    </head>
+    <body>
+    </body>
+    <footer>
+    </footer>
+</html>
