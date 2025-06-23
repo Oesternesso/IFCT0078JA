@@ -1,6 +1,10 @@
-const botonClick = document.getElementById("botónCambioColor");
+const boton = document.createElement('button');
+boton.textContent ='Cambiar color';
+boton.id = 'botonCambioColor';
 
-botonClick.addEventListener ('click', function(){
+boton.addEventListener ('click', function(){
     let colorRandom = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6 , '0');
     document.body.style.backgroundColor = colorRandom;
 });
+
+document.getElementById('seccionBotones').appendChild(boton);
