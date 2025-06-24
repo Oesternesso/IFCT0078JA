@@ -8,13 +8,13 @@ let lista = document.getElementById('miLista');
 let elementosLista = 0;
 
 botonLista.onclick = () => {
-let nuevoEl = document.createElement('li');
+    let nuevoEl = document.createElement('li');
 
-  nuevoEl.textContent = `Nuevo elemento ${elementosLista}`;
+    nuevoEl.textContent = `Nuevo elemento ${elementosLista}`;
 
-  lista.appendChild(nuevoEl);
+    lista.appendChild(nuevoEl);
 
-  elementosLista++;
+    elementosLista++;
 };
 
 
