@@ -11,7 +11,7 @@ var parrafo = document.getElementById('parrafoSecundario');
 parrafo.textContent = 'Secuencia:';
 
 botonFibonacci.onclick = () => {
-  let siguiente = fibonacciSecuencia[contador - 1] + fibonacciSecuencia[contador - 2];
+  let siguiente = fibonacciSecuencia[secuencia - 1] + fibonacciSecuencia[secuencia - 2];
   fibonacciSecuencia.push(siguiente);
   secuencia++;
 
