@@ -1,0 +1,20 @@
+.destacado {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+label {
+    cursor: pointer;
+}
+
+.correct {
+    color: green;
+    border: 1px solid green;
+    padding: 5px;
+}
